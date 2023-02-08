@@ -12,33 +12,29 @@ const Services = () => {
         {/* ui/ux design */}
         <article className="services">
           <div className="services__head">
-            <h3>UI/UX Design</h3>
+            <h3>Web Designer</h3>
           </div>
 
           <ul className="services__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>HTML</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>CSS</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Tailwind</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Sass</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Bootstrap</p>
             </li>
           </ul>
         </article>
@@ -52,29 +48,21 @@ const Services = () => {
           <ul className="services__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>JavaScript</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>React JS</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>PHP</p>
             </li>
           </ul>
         </article>
 
         {/*  content creation*/}
-        <article className="services">
+        {/* <article className="services">
           <div className="services__head">
             <h3>Content Creation</h3>
           </div>
@@ -97,7 +85,7 @@ const Services = () => {
               <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
             </li>
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
   );

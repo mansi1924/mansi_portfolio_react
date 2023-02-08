@@ -19,39 +19,39 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Food Related Website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">Github</a>
-          <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/mansi1924/food_website" className="btn" target="_blank">Github</a>
+          {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Coffee Related Website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">Github</a>
-          <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/mansi1924/coffee_website" className="btn" target="_blank">Github</a>
+          {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Company Portfolio Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">Github</a>
-          <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/mansi1924/react-website-portfolio" className="btn" target="_blank">Github</a>
+          <a href="https://tdionlineservices.com/" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG4} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>My Personal Portfolio</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">Github</a>
+          <a href="https://github.com" className="btn" target="_blank">Github</a>
           <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
@@ -59,20 +59,20 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Travel website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">Github</a>
-          <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/mansi1924/travel_website_template_1" className="btn" target="_blank">Github</a>
+          {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG6} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">Github</a>
-          <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/mansi1924/Demo_template_2" className="btn" target="_blank">Github</a>
+          <a href="https://demo.thedigitalindia.net/" className="btn btn-primary" target="_blank">Live Demo</a>
           </div>
         </article>
       </div>

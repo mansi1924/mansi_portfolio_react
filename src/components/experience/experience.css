@@ -1,7 +1,9 @@
 .experience__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 2rem; */
 }
 
 .experience__container > div {
@@ -28,6 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    column-gap: 2rem;
 }
 
 .experienece__details{
