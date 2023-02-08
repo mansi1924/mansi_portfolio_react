@@ -21,7 +21,7 @@ const Portfolio = () => {
           </div>
           <h3>Food Related Website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/mansi1924/food_website" className="btn" target="_blank">Github</a>
+          <a href="https://github.com/mansi1924/food_website" className="btn btn-primary" target="_blank">Github</a>
           {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
@@ -31,7 +31,7 @@ const Portfolio = () => {
           </div>
           <h3>Coffee Related Website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/mansi1924/coffee_website" className="btn" target="_blank">Github</a>
+          <a href="https://github.com/mansi1924/coffee_website" className="btn btn-primary" target="_blank">Github</a>
           {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
@@ -51,7 +51,7 @@ const Portfolio = () => {
           </div>
           <h3>My Personal Portfolio</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/mansi1924/mansi_portfolio_react" className="btn" target="_blank">Github</a>
+          <a href="https://github.com/mansi1924/mansi_portfolio_react" className="btn btn-primary" target="_blank">Github</a>
           {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
@@ -61,13 +61,13 @@ const Portfolio = () => {
           </div>
           <h3>Travel website Template</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/mansi1924/travel_website_template_1" className="btn" target="_blank">Github</a>
+          <a href="https://github.com/mansi1924/travel_website_template_1" className="btn btn-primary" target="_blank">Github</a>
           {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt=""/>
+            <img src={IMG2} alt=""/>
           </div>
           <h3>Website Template</h3>
           <div className="portfolio__item-cta">
@@ -77,11 +77,21 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt=""/>
+            <img src={IMG1} alt=""/>
           </div>
           <h3>Travel website Template 2</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/mansi1924/travel_website_template_2" className="btn" target="_blank">Github</a>
+          <a href="https://github.com/mansi1924/travel_website_templete_2" className="btn btn-primary" target="_blank">Github</a>
+          {/* <a href="" className="btn btn-primary" target="_blank">Live Demo</a> */}
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt=""/>
+          </div>
+          <h3>Jewellery website Template 2</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/mansi1924/jewellery_website_template" className="btn btn-primary" target="_blank">Github</a>
           {/* <a href="" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
@@ -89,5 +99,5 @@ const Portfolio = () => {
     </section>
   )
 }
-
+// mmm
 export default Portfolio

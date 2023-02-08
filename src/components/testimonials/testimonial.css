@@ -13,7 +13,7 @@
 }
 
 .testimonial{
-    height: 220px;
+    height: 280px !important;
     background: var(--color-bg-variant);
     text-align: center;
     border-radius: 2rem;
