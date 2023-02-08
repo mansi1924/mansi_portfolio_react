@@ -51,8 +51,8 @@ const Portfolio = () => {
           </div>
           <h3>My Personal Portfolio</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn" target="_blank">Github</a>
-          <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/mansi1924/mansi_portfolio_react" className="btn" target="_blank">Github</a>
+          {/* <a href="https://dribbble.com/" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className="portfolio__item">
@@ -73,6 +73,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
           <a href="https://github.com/mansi1924/Demo_template_2" className="btn" target="_blank">Github</a>
           <a href="https://demo.thedigitalindia.net/" className="btn btn-primary" target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt=""/>
+          </div>
+          <h3>Travel website Template 2</h3>
+          <div className="portfolio__item-cta">
+          <a href="" className="btn" target="_blank">Github</a>
+          {/* <a href="" className="btn btn-primary" target="_blank">Live Demo</a> */}
           </div>
         </article>
       </div>
